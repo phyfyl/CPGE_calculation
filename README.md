@@ -5,3 +5,5 @@
 ### (2) Add the variables: "freqmin", "freqmax" (float, minimal and maximal value of optical frequency), "freqnum" (number of points of frequency) into the file "module.f90" of WannierTools.
 ### (3) Add "cpge.o" into the variable "OBJ" of the file "Makefile" of WannierTools.
 ### (4) Recompile the WannierTools.
+
+## If ang questions, please contact me: 2304202694@qq.com
