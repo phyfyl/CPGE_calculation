@@ -143,13 +143,6 @@
 
 
   subroutine beta_k_cal(mu,omega1,W,Vmn_Ham,beta_op)
-     !> Calculate Berry curvature for a sigle k point and all bands
-     !> ref : eqn (30) Physical Review B 74, 195118(2006)
-     !>
-     !\Omega_n^{\gamma}(k)=i\sum_{\alpha\beta}\epsilon_{\gamma\alpha\beta}(D^{\alpha\dag}D^{\beta})_{nn}
-     !> Dec. 30 2019 by Quansheng Wu
-     !> Copyright (c) 2019 QuanSheng Wu. All rights reserved.
-
      use wmpi
      use para
      implicit none
